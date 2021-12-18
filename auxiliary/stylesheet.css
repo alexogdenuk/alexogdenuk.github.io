@@ -18,12 +18,23 @@ html {
   overflow-y:scroll;
 }
 
-a:link{
-  color:white
+a:link, a:visited{
+  color:white;
+  text-decoration: none;
 }
-a:visited{
-  color:white
+
+a:hover{
+  background-color: white;
+  color: black;
+  padding: 0px 0px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
 }
+
+}
+
+
 
 h1{
   text-align:center
